@@ -1,0 +1,13 @@
+# Python 3.13 tested. ffmpeg must be on PATH (decodes webm/m4a/mp3).
+librosa==1.0.0
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+soundfile==0.14.0
+resampy==0.4.3
+scikit-learn==1.9.1
+fastapi==0.143.0
+uvicorn==0.54.0
+python-multipart==0.0.32
+# dev only (generate new level audio): edge-tts==7.2.8
+# optional: legacy Gradio UI (app.py) -> gradio==6.30.0 ; e2e test -> playwright==1.63.0

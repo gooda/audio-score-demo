@@ -1,0 +1,34 @@
+[
+  {
+    "id": "a",
+    "name": "近乎完美模仿",
+    "ref": "a_near_perfect_ref.wav",
+    "user": "a_near_perfect_user.wav",
+    "expected_overall": "85–98",
+    "note": "同一旋律，极小颤音与噪声差异"
+  },
+  {
+    "id": "b",
+    "name": "调性偏移（旋律同、音高错）",
+    "ref": "b_wrong_key_ref.wav",
+    "user": "b_wrong_key_user.wav",
+    "expected_overall": "85–98（去全局移调后；key_shift≈500 cents）",
+    "note": "升高 5 个半音。Demo 音准会减去全局 key shift，故音准仍高；细节里可见 key_shift_cents≈500。若游戏要罚跑调，需另加绝对音高项。"
+  },
+  {
+    "id": "c",
+    "name": "音高对、节奏慢",
+    "ref": "c_wrong_timing_ref.wav",
+    "user": "c_wrong_timing_user.wav",
+    "expected_overall": "65–85（节奏项明显偏低，总分被音准/内容拉高）",
+    "note": "同一音高序列，整体拉长约 2 倍；请重点看节奏分而非总分"
+  },
+  {
+    "id": "d",
+    "name": "内容完全不同",
+    "ref": "d_different_content_ref.wav",
+    "user": "d_different_content_user.wav",
+    "expected_overall": "30–55",
+    "note": "参考是旋律，模仿是伪语音音节；内容分为 MFCC 代理，不会像 ASR 那样接近 0"
+  }
+]

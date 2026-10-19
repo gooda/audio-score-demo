@@ -1,0 +1,58 @@
+{
+  "hum": {
+    "mode": "玩梗模仿（本次为哼唱旋律，无台词关键词）",
+    "节奏型": 60.7,
+    "腔调_相对音高": 0.1,
+    "关键词": null,
+    "asr": null,
+    "响度": 63.4,
+    "总分": 37.0,
+    "必过项_节奏达标": true,
+    "明细": {
+      "pitch": {
+        "mae_cents": 528.4,
+        "key_shift_cents": -310.0,
+        "voiced_ratio_ref": 0.997,
+        "voiced_ratio_user": 0.891
+      },
+      "rhythm": {
+        "duration_ref_s": 3.599,
+        "duration_user_s": 5.024,
+        "duration_ratio": 0.716,
+        "onset_score": 54.3,
+        "warp_score": 60.8,
+        "dur_score": 60.6
+      }
+    }
+  },
+  "es": {
+    "mode": "外语发音",
+    "target": "Hola cómo estás",
+    "asr_user": " Hola, ¿cómo estás?",
+    "asr_ref": " Hola, ¿cómo estás?",
+    "字准": 100.0,
+    "字准明细": {
+      "acc": 100.0,
+      "keyword": 100.0,
+      "lcs": 3,
+      "ref": [
+        "hola",
+        "como",
+        "estas"
+      ],
+      "hyp": [
+        "hola",
+        "como",
+        "estas"
+      ],
+      "hits": 3
+    },
+    "语速": 30.0,
+    "流畅度": 100.0,
+    "响度": 71.0,
+    "总分": 79.6,
+    "必过项_字准达标": true,
+    "时长比_参考除以用户": 0.5,
+    "旧规则对比提示": "旧音准项已移除"
+  }
+}

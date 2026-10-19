@@ -1,0 +1,56 @@
+es_hola        自身                     总分100.0 PASS AC=✓                  d=0.000 sim=100.0 syl=3/3 575ms
+es_hola        错内容:en_nice            总分 20.0 fail AC=✗spectral          d=0.489 sim=  0.0 syl=3/3 273ms
+es_hola        错内容:ja_arigatou        总分 20.0 fail AC=✗spectral          d=0.357 sim= 37.2 syl=5/3 322ms
+es_hola        错内容:meme_meishi        总分 20.0 fail AC=✗spectral          d=0.369 sim= 32.5 syl=3/3 468ms
+es_hola        错内容:meme_juejuezi      总分 20.0 fail AC=✗syllables,spectral d=0.531 sim=  0.0 syl=7/3 360ms
+es_hola        错内容:hum_melody         总分 20.0 fail AC=✗syllables,spectral d=0.742 sim=  0.0 syl=9/3 476ms
+es_hola        静音                     总分 20.0 fail AC=✗voice,syllables,spectral d=0.830 sim=  0.0 syl=0/3 440ms
+es_hola        白噪声                    总分 20.0 fail AC=✗syllables,spectral d=0.858 sim=  0.0 syl=1/3 564ms
+en_nice        自身                     总分100.0 PASS AC=✓                  d=0.000 sim=100.0 syl=3/3 276ms
+en_nice        错内容:es_hola            总分 20.0 fail AC=✗spectral          d=0.496 sim=  0.0 syl=3/3 283ms
+en_nice        错内容:ja_arigatou        总分 20.0 fail AC=✗spectral          d=0.508 sim=  0.0 syl=5/3 305ms
+en_nice        错内容:meme_meishi        总分 15.2 fail AC=✗spectral          d=0.458 sim=  0.0 syl=3/3 346ms
+en_nice        错内容:meme_juejuezi      总分 20.0 fail AC=✗syllables,spectral d=0.487 sim=  0.0 syl=7/3 414ms
+en_nice        错内容:hum_melody         总分 20.0 fail AC=✗syllables,spectral d=0.767 sim=  0.0 syl=9/3 397ms
+en_nice        静音                     总分 20.0 fail AC=✗voice,syllables,spectral d=0.825 sim=  0.0 syl=0/3 410ms
+en_nice        白噪声                    总分 20.0 fail AC=✗syllables,spectral d=0.793 sim=  0.0 syl=1/3 422ms
+ja_arigatou    自身                     总分100.0 PASS AC=✓                  d=0.000 sim=100.0 syl=5/5 314ms
+ja_arigatou    错内容:es_hola            总分 20.0 fail AC=✗spectral          d=0.364 sim= 34.3 syl=3/5 319ms
+ja_arigatou    错内容:en_nice            总分 20.0 fail AC=✗spectral          d=0.508 sim=  0.0 syl=3/5 281ms
+ja_arigatou    错内容:meme_meishi        总分 19.1 fail AC=✗spectral          d=0.527 sim=  0.0 syl=3/5 405ms
+ja_arigatou    错内容:meme_juejuezi      总分 20.0 fail AC=✗spectral          d=0.549 sim=  0.0 syl=7/5 361ms
+ja_arigatou    错内容:hum_melody         总分 20.0 fail AC=✗spectral          d=0.746 sim=  0.0 syl=9/5 364ms
+ja_arigatou    静音                     总分 20.0 fail AC=✗voice,syllables,spectral d=0.853 sim=  0.0 syl=0/5 442ms
+ja_arigatou    白噪声                    总分 20.0 fail AC=✗syllables,spectral d=0.874 sim=  0.0 syl=1/5 459ms
+meme_meishi    自身                     总分100.0 PASS AC=✓                  d=0.000 sim=100.0 syl=3/3 458ms
+meme_meishi    错内容:es_hola            总分 20.0 fail AC=✗spectral          d=0.364 sim= 34.5 syl=3/3 441ms
+meme_meishi    错内容:en_nice            总分 20.0 fail AC=✗spectral          d=0.454 sim=  0.0 syl=3/3 498ms
+meme_meishi    错内容:ja_arigatou        总分 20.0 fail AC=✗spectral          d=0.521 sim=  0.0 syl=5/3 358ms
+meme_meishi    错内容:meme_juejuezi      总分 20.0 fail AC=✗syllables,spectral d=0.434 sim=  6.5 syl=7/3 410ms
+meme_meishi    错内容:hum_melody         总分 20.0 fail AC=✗syllables,spectral d=0.719 sim=  0.0 syl=9/3 511ms
+meme_meishi    静音                     总分 20.0 fail AC=✗voice,syllables,spectral d=0.892 sim=  0.0 syl=0/3 499ms
+meme_meishi    白噪声                    总分 20.0 fail AC=✗syllables,spectral d=0.906 sim=  0.0 syl=1/3 508ms
+meme_juejuezi  自身                     总分100.0 PASS AC=✓                  d=0.000 sim=100.0 syl=7/7 376ms
+meme_juejuezi  错内容:es_hola            总分 20.0 fail AC=✗syllables,spectral d=0.533 sim=  0.0 syl=3/7 408ms
+meme_juejuezi  错内容:en_nice            总分 20.0 fail AC=✗syllables,spectral d=0.492 sim=  0.0 syl=3/7 406ms
+meme_juejuezi  错内容:ja_arigatou        总分 20.0 fail AC=✗spectral          d=0.551 sim=  0.0 syl=5/7 432ms
+meme_juejuezi  错内容:meme_meishi        总分 20.0 fail AC=✗syllables,spectral d=0.436 sim=  5.4 syl=3/7 420ms
+meme_juejuezi  错内容:hum_melody         总分 20.0 fail AC=✗spectral          d=0.664 sim=  0.0 syl=9/7 437ms
+meme_juejuezi  静音                     总分 20.0 fail AC=✗voice,syllables,spectral d=0.773 sim=  0.0 syl=0/7 395ms
+meme_juejuezi  白噪声                    总分 20.0 fail AC=✗syllables,spectral d=0.877 sim=  0.0 syl=1/7 494ms
+hum_melody     自身                     总分100.0 PASS AC=✓                  d=0.000 sim=100.0 syl=9/9 544ms
+hum_melody     错内容:es_hola            总分 20.0 fail AC=✗syllables,spectral d=0.734 sim=  0.0 syl=3/9 607ms
+hum_melody     错内容:en_nice            总分 20.0 fail AC=✗syllables,spectral d=0.757 sim=  0.0 syl=3/9 402ms
+hum_melody     错内容:ja_arigatou        总分 20.0 fail AC=✗spectral          d=0.733 sim=  0.0 syl=5/9 345ms
+hum_melody     错内容:meme_meishi        总分 20.0 fail AC=✗syllables,spectral d=0.725 sim=  0.0 syl=3/9 570ms
+hum_melody     错内容:meme_juejuezi      总分 20.0 fail AC=✗spectral          d=0.687 sim=  0.0 syl=7/9 448ms
+hum_melody     静音                     总分 20.0 fail AC=✗voice,syllables,spectral d=0.833 sim=  0.0 syl=0/9 461ms
+hum_melody     白噪声                    总分 20.0 fail AC=✗syllables,spectral d=0.911 sim=  0.0 syl=1/9 703ms
+es_hola        真实-西语                  总分 72.9 PASS AC=✓                  d=0.237 sim= 85.1 syl=5/3 452ms
+hum_melody     真实-哼唱                  总分 36.5 PASS AC=✓                  d=0.538 sim= 32.0 syl=9/9 636ms
+es_hola        同句另一TTS                总分 59.0 fail AC=✓                  d=0.348 sim= 40.9 syl=5/3 345ms
+es_hola        模拟录音opus-西语            总分 74.6 PASS AC=✓                  d=0.230 sim= 88.2 syl=5/3 531ms
+hum_melody     模拟录音opus-哼唱            总分 83.0 PASS AC=✓                  d=0.475 sim= 49.9 syl=9/9 512ms
+hum_melody     合成近似                   总分 84.9 PASS AC=✓                  d=0.463 sim= 53.3 syl=9/9 556ms
+
+错内容通过关卡: 0 / 30   防作弊拦截: 30

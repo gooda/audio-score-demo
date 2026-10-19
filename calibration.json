@@ -1,0 +1,764 @@
+[
+ {
+  "kind": "自身",
+  "level": "es_hola",
+  "overall": 100.0,
+  "passed": true,
+  "anti_cheat": true,
+  "failed": [],
+  "dist": 0.0,
+  "sim": 100.0,
+  "syl": "3/3",
+  "ms": 575
+ },
+ {
+  "kind": "错内容:en_nice",
+  "level": "es_hola",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.4887,
+  "sim": 0.0,
+  "syl": "3/3",
+  "ms": 273
+ },
+ {
+  "kind": "错内容:ja_arigatou",
+  "level": "es_hola",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.3569,
+  "sim": 37.2,
+  "syl": "5/3",
+  "ms": 322
+ },
+ {
+  "kind": "错内容:meme_meishi",
+  "level": "es_hola",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.3686,
+  "sim": 32.5,
+  "syl": "3/3",
+  "ms": 468
+ },
+ {
+  "kind": "错内容:meme_juejuezi",
+  "level": "es_hola",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.531,
+  "sim": 0.0,
+  "syl": "7/3",
+  "ms": 360
+ },
+ {
+  "kind": "错内容:hum_melody",
+  "level": "es_hola",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.7418,
+  "sim": 0.0,
+  "syl": "9/3",
+  "ms": 476
+ },
+ {
+  "kind": "静音",
+  "level": "es_hola",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "voice",
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.8303,
+  "sim": 0.0,
+  "syl": "0/3",
+  "ms": 440
+ },
+ {
+  "kind": "白噪声",
+  "level": "es_hola",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.8579,
+  "sim": 0.0,
+  "syl": "1/3",
+  "ms": 564
+ },
+ {
+  "kind": "自身",
+  "level": "en_nice",
+  "overall": 100.0,
+  "passed": true,
+  "anti_cheat": true,
+  "failed": [],
+  "dist": 0.0,
+  "sim": 100.0,
+  "syl": "3/3",
+  "ms": 276
+ },
+ {
+  "kind": "错内容:es_hola",
+  "level": "en_nice",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.4962,
+  "sim": 0.0,
+  "syl": "3/3",
+  "ms": 283
+ },
+ {
+  "kind": "错内容:ja_arigatou",
+  "level": "en_nice",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.5083,
+  "sim": 0.0,
+  "syl": "5/3",
+  "ms": 305
+ },
+ {
+  "kind": "错内容:meme_meishi",
+  "level": "en_nice",
+  "overall": 15.2,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.4577,
+  "sim": 0.0,
+  "syl": "3/3",
+  "ms": 346
+ },
+ {
+  "kind": "错内容:meme_juejuezi",
+  "level": "en_nice",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.4867,
+  "sim": 0.0,
+  "syl": "7/3",
+  "ms": 414
+ },
+ {
+  "kind": "错内容:hum_melody",
+  "level": "en_nice",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.7669,
+  "sim": 0.0,
+  "syl": "9/3",
+  "ms": 397
+ },
+ {
+  "kind": "静音",
+  "level": "en_nice",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "voice",
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.8247,
+  "sim": 0.0,
+  "syl": "0/3",
+  "ms": 410
+ },
+ {
+  "kind": "白噪声",
+  "level": "en_nice",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.7931,
+  "sim": 0.0,
+  "syl": "1/3",
+  "ms": 422
+ },
+ {
+  "kind": "自身",
+  "level": "ja_arigatou",
+  "overall": 100.0,
+  "passed": true,
+  "anti_cheat": true,
+  "failed": [],
+  "dist": 0.0,
+  "sim": 100.0,
+  "syl": "5/5",
+  "ms": 314
+ },
+ {
+  "kind": "错内容:es_hola",
+  "level": "ja_arigatou",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.3641,
+  "sim": 34.3,
+  "syl": "3/5",
+  "ms": 319
+ },
+ {
+  "kind": "错内容:en_nice",
+  "level": "ja_arigatou",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.5079,
+  "sim": 0.0,
+  "syl": "3/5",
+  "ms": 281
+ },
+ {
+  "kind": "错内容:meme_meishi",
+  "level": "ja_arigatou",
+  "overall": 19.1,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.5269,
+  "sim": 0.0,
+  "syl": "3/5",
+  "ms": 405
+ },
+ {
+  "kind": "错内容:meme_juejuezi",
+  "level": "ja_arigatou",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.5494,
+  "sim": 0.0,
+  "syl": "7/5",
+  "ms": 361
+ },
+ {
+  "kind": "错内容:hum_melody",
+  "level": "ja_arigatou",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.7457,
+  "sim": 0.0,
+  "syl": "9/5",
+  "ms": 364
+ },
+ {
+  "kind": "静音",
+  "level": "ja_arigatou",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "voice",
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.8529,
+  "sim": 0.0,
+  "syl": "0/5",
+  "ms": 442
+ },
+ {
+  "kind": "白噪声",
+  "level": "ja_arigatou",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.8739,
+  "sim": 0.0,
+  "syl": "1/5",
+  "ms": 459
+ },
+ {
+  "kind": "自身",
+  "level": "meme_meishi",
+  "overall": 100.0,
+  "passed": true,
+  "anti_cheat": true,
+  "failed": [],
+  "dist": 0.0,
+  "sim": 100.0,
+  "syl": "3/3",
+  "ms": 458
+ },
+ {
+  "kind": "错内容:es_hola",
+  "level": "meme_meishi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.3638,
+  "sim": 34.5,
+  "syl": "3/3",
+  "ms": 441
+ },
+ {
+  "kind": "错内容:en_nice",
+  "level": "meme_meishi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.4538,
+  "sim": 0.0,
+  "syl": "3/3",
+  "ms": 498
+ },
+ {
+  "kind": "错内容:ja_arigatou",
+  "level": "meme_meishi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.5212,
+  "sim": 0.0,
+  "syl": "5/3",
+  "ms": 358
+ },
+ {
+  "kind": "错内容:meme_juejuezi",
+  "level": "meme_meishi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.4337,
+  "sim": 6.5,
+  "syl": "7/3",
+  "ms": 410
+ },
+ {
+  "kind": "错内容:hum_melody",
+  "level": "meme_meishi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.7194,
+  "sim": 0.0,
+  "syl": "9/3",
+  "ms": 511
+ },
+ {
+  "kind": "静音",
+  "level": "meme_meishi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "voice",
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.8924,
+  "sim": 0.0,
+  "syl": "0/3",
+  "ms": 499
+ },
+ {
+  "kind": "白噪声",
+  "level": "meme_meishi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.9059,
+  "sim": 0.0,
+  "syl": "1/3",
+  "ms": 508
+ },
+ {
+  "kind": "自身",
+  "level": "meme_juejuezi",
+  "overall": 100.0,
+  "passed": true,
+  "anti_cheat": true,
+  "failed": [],
+  "dist": 0.0,
+  "sim": 100.0,
+  "syl": "7/7",
+  "ms": 376
+ },
+ {
+  "kind": "错内容:es_hola",
+  "level": "meme_juejuezi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.5333,
+  "sim": 0.0,
+  "syl": "3/7",
+  "ms": 408
+ },
+ {
+  "kind": "错内容:en_nice",
+  "level": "meme_juejuezi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.4924,
+  "sim": 0.0,
+  "syl": "3/7",
+  "ms": 406
+ },
+ {
+  "kind": "错内容:ja_arigatou",
+  "level": "meme_juejuezi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.5515,
+  "sim": 0.0,
+  "syl": "5/7",
+  "ms": 432
+ },
+ {
+  "kind": "错内容:meme_meishi",
+  "level": "meme_juejuezi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.4365,
+  "sim": 5.4,
+  "syl": "3/7",
+  "ms": 420
+ },
+ {
+  "kind": "错内容:hum_melody",
+  "level": "meme_juejuezi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.6641,
+  "sim": 0.0,
+  "syl": "9/7",
+  "ms": 437
+ },
+ {
+  "kind": "静音",
+  "level": "meme_juejuezi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "voice",
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.7731,
+  "sim": 0.0,
+  "syl": "0/7",
+  "ms": 395
+ },
+ {
+  "kind": "白噪声",
+  "level": "meme_juejuezi",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.8774,
+  "sim": 0.0,
+  "syl": "1/7",
+  "ms": 494
+ },
+ {
+  "kind": "自身",
+  "level": "hum_melody",
+  "overall": 100.0,
+  "passed": true,
+  "anti_cheat": true,
+  "failed": [],
+  "dist": 0.0,
+  "sim": 100.0,
+  "syl": "9/9",
+  "ms": 544
+ },
+ {
+  "kind": "错内容:es_hola",
+  "level": "hum_melody",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.7341,
+  "sim": 0.0,
+  "syl": "3/9",
+  "ms": 607
+ },
+ {
+  "kind": "错内容:en_nice",
+  "level": "hum_melody",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.7567,
+  "sim": 0.0,
+  "syl": "3/9",
+  "ms": 402
+ },
+ {
+  "kind": "错内容:ja_arigatou",
+  "level": "hum_melody",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.7331,
+  "sim": 0.0,
+  "syl": "5/9",
+  "ms": 345
+ },
+ {
+  "kind": "错内容:meme_meishi",
+  "level": "hum_melody",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.7245,
+  "sim": 0.0,
+  "syl": "3/9",
+  "ms": 570
+ },
+ {
+  "kind": "错内容:meme_juejuezi",
+  "level": "hum_melody",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "spectral"
+  ],
+  "dist": 0.6868,
+  "sim": 0.0,
+  "syl": "7/9",
+  "ms": 448
+ },
+ {
+  "kind": "静音",
+  "level": "hum_melody",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "voice",
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.8328,
+  "sim": 0.0,
+  "syl": "0/9",
+  "ms": 461
+ },
+ {
+  "kind": "白噪声",
+  "level": "hum_melody",
+  "overall": 20.0,
+  "passed": false,
+  "anti_cheat": false,
+  "failed": [
+   "syllables",
+   "spectral"
+  ],
+  "dist": 0.9106,
+  "sim": 0.0,
+  "syl": "1/9",
+  "ms": 703
+ },
+ {
+  "kind": "真实-西语",
+  "level": "es_hola",
+  "overall": 72.9,
+  "passed": true,
+  "anti_cheat": true,
+  "failed": [],
+  "dist": 0.2372,
+  "sim": 85.1,
+  "syl": "5/3",
+  "ms": 452
+ },
+ {
+  "kind": "真实-哼唱",
+  "level": "hum_melody",
+  "overall": 36.5,
+  "passed": true,
+  "anti_cheat": true,
+  "failed": [],
+  "dist": 0.5382,
+  "sim": 32.0,
+  "syl": "9/9",
+  "ms": 636
+ },
+ {
+  "kind": "同句另一TTS",
+  "level": "es_hola",
+  "overall": 59.0,
+  "passed": false,
+  "anti_cheat": true,
+  "failed": [],
+  "dist": 0.3478,
+  "sim": 40.9,
+  "syl": "5/3",
+  "ms": 345
+ },
+ {
+  "kind": "模拟录音opus-西语",
+  "level": "es_hola",
+  "overall": 74.6,
+  "passed": true,
+  "anti_cheat": true,
+  "failed": [],
+  "dist": 0.2296,
+  "sim": 88.2,
+  "syl": "5/3",
+  "ms": 531
+ },
+ {
+  "kind": "模拟录音opus-哼唱",
+  "level": "hum_melody",
+  "overall": 83.0,
+  "passed": true,
+  "anti_cheat": true,
+  "failed": [],
+  "dist": 0.4753,
+  "sim": 49.9,
+  "syl": "9/9",
+  "ms": 512
+ },
+ {
+  "kind": "合成近似",
+  "level": "hum_melody",
+  "overall": 84.9,
+  "passed": true,
+  "anti_cheat": true,
+  "failed": [],
+  "dist": 0.4634,
+  "sim": 53.3,
+  "syl": "9/9",
+  "ms": 556
+ }
+]

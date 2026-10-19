@@ -1,0 +1,62 @@
+[
+ {
+  "id": "es_hola",
+  "title": "西语问候",
+  "mode": "foreign",
+  "lang": "es",
+  "ref": "es_hola_ref_neural.mp3",
+  "text": "Hola, ¿cómo estás?",
+  "hint": "西班牙语 · 你好，最近怎么样？",
+  "profile": "speech"
+ },
+ {
+  "id": "en_nice",
+  "title": "英语初见",
+  "mode": "foreign",
+  "lang": "en",
+  "ref": "en_nice_ref.mp3",
+  "text": "Nice to meet you.",
+  "hint": "英语 · 很高兴认识你",
+  "profile": "speech"
+ },
+ {
+  "id": "ja_arigatou",
+  "title": "日语道谢",
+  "mode": "foreign",
+  "lang": "ja",
+  "ref": "ja_arigatou_ref.mp3",
+  "text": "ありがとうございます",
+  "hint": "日语 · 非常感谢",
+  "profile": "speech"
+ },
+ {
+  "id": "meme_meishi",
+  "title": "我——没——事！",
+  "mode": "meme",
+  "lang": "zh",
+  "ref": "meme_meishi_ref.mp3",
+  "text": "我没事",
+  "hint": "拖长音、最后一个字要重",
+  "profile": "speech"
+ },
+ {
+  "id": "meme_juejuezi",
+  "title": "绝绝子",
+  "mode": "meme",
+  "lang": "zh",
+  "ref": "meme_juejuezi_ref.mp3",
+  "text": "绝绝子，真的绝绝子",
+  "hint": "语调上扬、节奏轻快",
+  "profile": "speech"
+ },
+ {
+  "id": "hum_melody",
+  "title": "哼唱旋律",
+  "mode": "meme",
+  "lang": null,
+  "ref": "a_near_perfect_ref.wav",
+  "text": "",
+  "hint": "跟着哼 do re mi fa sol fa mi re do，不需要歌词",
+  "profile": "hum"
+ }
+]

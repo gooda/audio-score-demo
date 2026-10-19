@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>声音模仿挑战</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header><h1>🎤 声音模仿挑战</h1><span class="sub">听示范 · 跟着说 · 看评分</span></header>
+<main>
+  <section id="levels" class="levels"></section>
+
+  <section class="card" id="stage">
+    <div class="stage-head">
+      <span id="modeBadge" class="badge"></span>
+      <h2 id="lvTitle"></h2>
+    </div>
+    <div id="lvText" class="target"></div><div class="caption-note">（台词仅供参考，评分只比较声音，不识别文字）</div>
+    <div id="lvHint" class="hint"></div>
+    <div class="row-title">示范音频 <small>波形 + 音高轮廓</small></div>
+    <canvas id="refCanvas" class="chart" height="140"></canvas>
+    <div class="btns"><button id="btnPlayRef" class="btn">▶ 播放示范</button></div>
+  </section>
+
+  <section class="card" id="recCard">
+    <div class="row-title">我的尝试 <small id="recHint">点录音后跟读：浅蓝=示范波形，红=你的实时波形；停止后再打分</small></div>
+    <div class="meter"><div id="meterBar"></div></div>
+    <canvas id="liveCanvas" class="chart" height="160"></canvas>
+    <div class="btns">
+      <button id="btnRec" class="btn primary">● 开始录音</button>
+      <label class="btn ghost">⤒ 上传音频<input id="fileIn" type="file" accept="audio/*,.m4a,.mp3,.wav,.webm" hidden></label>
+      <span id="recTime" class="mono"></span>
+    </div>
+    <div id="status" class="status"></div>
+  </section>
+
+  <section id="results" class="hidden">
+    <div class="card score-card">
+      <div class="overall"><div id="ovNum">0</div><div class="ovLabel">总分 <span id="elapsed" class="mono"></span></div></div>
+      <div class="gates" id="gates"></div>
+      <div class="dims" id="dims"></div>
+      <canvas id="radar" width="220" height="220"></canvas>
+    </div>
+    <div class="card" id="acCard"><div class="row-title">🛡️ 防作弊校验 <small>不做语音识别，只比声音本身</small></div><div id="acChecks" class="ac"></div></div>
+    <div class="card"><div class="row-title">💡 改进建议</div><ul id="tips" class="tips"></ul></div>
+
+    <div class="card" id="mainCard">
+      <div class="main-head">
+        <div class="row-title">示范 vs 我的 <small id="mainSub">蓝=示范 红=我的，已按 DTW 对齐到示范时间轴并统一响度；红底=差异大。<b>点击任意位置</b>：先播示范、再播我的这一段</small></div>
+        <div class="seg"><button id="vWave" class="on">波形叠加</button><button id="vSpec">频谱对比</button></div>
+      </div>
+      <canvas id="mainCmp" class="chart click" height="190"></canvas>
+      <canvas id="diffStrip" class="chart click strip" height="26"></canvas>
+      <div class="strip-legend"><span>差异条：</span><i class="lg"></i><span>像 → 不像</span><span id="segInfo" class="mono"></span></div>
+      <div class="btns">
+        <button class="btn" id="pbRef">▶ 示范</button>
+        <button class="btn" id="pbUser">▶ 我的</button>
+        <button class="btn primary" id="pbAB">A/B 切换</button>
+        <button class="btn ghost" id="pbStop">■</button>
+        <span id="pbWho" class="mono"></span>
+      </div>
+    </div>
+
+    <div class="card" id="foreignCard">
+      <div class="row-title">语速 <small>示范时长 ÷ 你的时长，绿色区间 0.85–1.15 满分；停顿见上方波形底部灰条</small></div>
+      <div class="pace"><div class="zone"></div><div id="paceMark" class="mark"></div></div>
+      <div class="pace-axis"><span>0.4 慢</span><span>1.0</span><span>快 2.0</span></div>
+    </div>
+
+    <details class="card" id="pitchCard">
+      <summary class="row-title">腔调 / 音高轮廓 <small>已对齐时间并去掉整体升降调；红色阴影=偏差 &gt; 1 个半音</small></summary>
+      <canvas id="pitchCmp" class="chart" height="180"></canvas>
+    </details>
+    <details class="card" id="rhythmCard">
+      <summary class="row-title">节奏起音点 <small>上=示范，下=你的（按总时长缩放）；连线 绿=准 · 橙=抢拍 · 紫=拖拍</small></summary>
+      <canvas id="rhythmCmp" class="chart" height="130"></canvas>
+    </details>
+    <div class="card">
+      <div class="row-title">本关历史 <small>最近 20 次</small></div>
+      <canvas id="history" class="chart" height="110"></canvas>
+    </div>
+  </section>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>
